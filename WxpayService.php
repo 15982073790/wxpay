@@ -9,7 +9,7 @@ $appid = '';  //微信支付申请对应的公众号的APPID
 $apiKey = '';   //https://pay.weixin.qq.com 帐户设置-安全设置-API安全-API密钥-设置API密钥
 $outTradeNo = '';     //你自己的商品订单号
 $orderName = '';    //订单标题
-$payAmount = '';          //付款金额，单位:元
+$payAmount = '';          //付款金额，单位:分
 $notifyUrl = '';     //付款成功后的回调地址(不要有问号)
 /** 配置结束 */
 $wxPay = new WxpayService($mchid, $appid, $apiKey);
